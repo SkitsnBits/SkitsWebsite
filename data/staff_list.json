@@ -1,0 +1,161 @@
+{
+    "founder": [
+        {
+        "name": "ZircronSwift",
+        "image": "Zircron.png",
+        "title": "Founder"
+        },
+        {
+            "name": "SwitzerLad",
+            "image": "Switzerlad.png"
+        },
+        {
+            "name": "WalGesicht",
+            "image": "WalGesicht.png"
+        }
+    ],
+    "staff": [
+        {
+            "name": "Nithia09",
+            "image": "Nithia.png"
+        },
+        {
+            "name": "Mycana",
+            "image": "Mycana.png"
+        },
+        {
+            "name": "Wolfy",
+            "image": "Wolfy.png"
+        },
+        {
+            "name": "Skyeman",
+            "image": "Skyeman.png"
+        },
+        {
+            "name": "Letty",
+            "image": "Letty.png"
+        },
+        {
+            "name": "Zidane Beoulve",
+            "image": "Zidane.png"
+        },
+        {
+            "name": "Ayairi",
+            "image": "Ayairi.png"
+        },
+        {
+            "name": "Alesnya",
+            "image": "Alesnya.png"
+        },
+        {
+            "name": "Allicent",
+            "image": "Allicent.png"
+        },
+        {
+            "name": "Hanns",
+            "image": "Hanns.png"
+        },
+        {
+            "name": "Timber the Cat",
+            "image": "TimbertheCat.png"
+        },
+        {
+            "name": "Sylan Troh",
+            "image": "Sylan Troh.png"
+        },
+        {
+            "name": "Rydia Lazuli",
+            "image": "Rydia.png"
+        },
+        {
+            "name": "Tekuno",
+            "image": "Tekuno.png"
+        },
+        {
+            "name": "RockOfFire",
+            "image": "RockofFire.png"
+        },
+        {
+            "name": "Blaiddan",
+            "image": "Blaiddan.png"
+        },
+        {
+            "name": "JakeTheSnake",
+            "image": "JaketheSnake.png"
+        },
+        {
+            "name": "Emma Torch",
+            "image": "Emma Torch.png"
+        },
+        {
+            "name": "Mattpro",
+            "image": "Mattpro.png"
+        },
+        {
+            "name": "NeonAlligator",
+            "image": "NeonAlligator.png"
+        },
+        {
+            "name": "HeyItsPure",
+            "image": "Pure.png"
+        },
+        {
+            "name": "SebastianThePirate",
+            "image": "Sebatian.png"
+        },
+        {
+            "name": "Sofrei",
+            "image": "Sofrei.png"
+        },
+        {
+            "name": "Squidinyourshoe",
+            "image": "Squidinyourshoe.png"
+        },
+        {
+            "name": "cocainezero",
+            "image": "CocaineZero.png"
+        },
+        {
+            "name": "Modulo",
+            "image": "Modeulo.png"
+        }
+    ],
+    "retired": [
+        {
+            "name": "Litha",
+            "image": "null"
+        },
+        {
+            "name": "Dianeserphant",
+            "image": "null"
+        },
+        {
+            "name": "Purin",
+            "image": "null"
+        },
+        {
+            "name": "Ashella",
+            "image": "null"
+        },
+        {
+            "name": "Kangatails",
+            "image": "null"
+        },
+        {
+            "name": "Inquisition",
+            "image": "null"
+        },
+        {
+            "name": "Nachytsm",
+            "image": "null"
+        },
+        {
+            "name": "Sageidae",
+            "image": "null"
+        },
+        {
+            "name": "Bunnyrip7",
+            "image": "null"
+        }
+    ]
+}

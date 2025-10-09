@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Safety Team",
+        "description": "Uses conflict resolution and de-escalation rather than strict policing to keep the community safe."
+    },
+    {
+        "name": "Community Management",
+        "description": "Manages and hosts events to help foster a positive community base."
+    },
+    {
+        "name": "World Development",
+        "description": "Develops and maintains the current Skits'N'Bits Theatre world and any other worlds required for special events."
+    },
+    {
+        "name": "Video Production",
+        "description": "Plans and produces various skits, sketches, and short films  and handles streaming certain events."
+    },
+    {
+        "name": "Show Department",
+        "description": "Gathers performers and hosts our monthly show."
+    },
+    {
+        "name": "Workshop Department",
+        "description": "Hosts and teaches our weekly improv workshop."
+    },
+    {
+        "name": "Usher",
+        "description": "Greets late joiners of our events, informs them of what is happening, and guiding them to where they need to be."
+    }
+]

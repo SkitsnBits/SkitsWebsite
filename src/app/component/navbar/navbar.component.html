@@ -6,13 +6,13 @@
     <div class="left">
         <div class="title" title="Skits'n'Bits" (click)="navigate(pages[0].path)">
             <img src="logo.png">
-            <h1>Skits'n'Bits</h1>
+            <h1 class="mobile_rm">Skits'n'Bits</h1>
         </div>
     </div>
 
     <div class="right">
         @for (link of website.platformLinks; track $index) {
-            <a [href]="link.link" target="_blank" [title]="link.platform" class="mobile_rm">
+            <a [href]="link.link" target="_blank" [title]="link.platform">
                 <div class="image">
                     <img [src]="'image/platform/'+link.image" alt="Image" width="36" height="36">
                 </div>

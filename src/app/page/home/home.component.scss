@@ -1,0 +1,251 @@
+
+.component {
+
+    width: 100%;
+    height: 100%;
+
+    .section_gradient {
+        height: 30px;
+        &.one {
+            background: linear-gradient(180deg, var(--primary-3) 0%, var(--primary-5) 100%);
+        }
+        &.two {
+            background: linear-gradient(360deg, var(--primary-3) 0%, var(--primary-5) 100%);
+        }
+    }
+
+    .section {
+
+        &.two {
+            background: var(--primary-5);
+        }
+
+        &.intro {
+
+            .container {
+                        
+                width: 700px;
+                margin: 100px auto;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                        
+                img {
+                    width: 400px;
+                }
+            
+                p {
+                    color: var(--primary-5);
+                    font-size: 24px;
+                    font-weight: 500;
+                }
+            }
+
+        }
+
+        &.events {
+
+            height: 900px;
+            box-sizing: border-box;
+            border: 1px solid transparent;
+            
+            .container {
+                width: 2200px;
+                margin: auto;
+                padding: 100px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                gap: 50px;
+                height: 100%;
+                box-sizing: border-box;
+                border: 1px solid transparent;
+            }
+
+            .panel {
+                border-radius: 10px;
+                width: 550px;
+                padding: 10px 30px;
+                text-align: center;
+                background: var(--primary-4);
+                height: 100%;
+                box-sizing: border-box;
+
+                .images {
+                    box-sizing: border-box;
+                    border: 1px solid transparent;
+                }
+
+                img {
+                    width: 100%;
+                    border-radius: 10px;
+                    border: 5px solid var(--primary-3);
+                    box-sizing: border-box;
+                    margin-top: 30px;
+                    &:first-child {
+                        margin-top: 10px;
+                    }
+                }
+
+                h1, h2, h3 {
+                    font-family: bubble, Arial, Helvetica, sans-serif;
+                }
+            }
+
+        }
+
+
+
+        &.staff {
+
+            padding-bottom: 100px;
+
+            .container {
+
+                width: 100%;
+                
+                h1 {
+                    margin-top: 100px;
+                    text-align: center;
+                    font-family: bubble, Arial, Helvetica, sans-serif;
+                }
+
+                .group {
+                    
+                    margin: auto;
+                    gap: 10px;
+
+                    h2 {
+                        text-align: center;
+                    }
+
+                    
+                    &.founder {
+                        width: 1200px;
+                        display: flex;
+                        justify-content: space-around;
+                    }
+                    
+                    &.staff {
+                        width: 2000px;
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        
+                    }
+
+                    &.retired {
+                        width: 100%;
+                        .profile {
+                            margin: 10px auto 0px auto;
+                        }
+                    }
+
+                    .profile {
+                        border: 10px solid var(--primary-5);
+                        background: var(--primary-4);
+                        border-radius: 10px;
+                        box-sizing: border-box;
+                        width: 380px;
+                        margin: 5px;
+                    }
+
+                    .image {
+                        margin: auto;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: fit-content;
+                        padding-bottom: 30px;
+                        border-radius: 10px;
+
+                        img {
+                            border-radius: 10px;
+                        }
+                    }
+
+
+
+                }
+
+            }
+
+        }
+
+    }
+
+}
+
+@media (max-width: 2200px) {
+    .component {
+        .section {
+            &.events {
+                height: unset;
+                .container {
+                    display: block;
+                    width: 100%;
+                }
+                .panel {
+                    margin: 50px auto 0px auto;
+                    .images {
+                        img.two {
+                            display: none;
+                        }
+                    }
+                }
+            }
+            &.staff {
+                .container {
+                    .group {
+                        &.staff {
+                            width: 1200px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .component {
+        .section {
+            &.events {
+                height: unset;
+                .container {
+                    display: block;
+                    width: 100%;
+                    padding: 0px;
+                }
+                .panel {
+                    margin: 50px auto 0px auto;
+                    width: 100%;
+                    .images {
+                        img.two {
+                            display: none;
+                        }
+                    }
+                }
+            }
+            &.staff {
+                .container {
+                    .group {
+                        &.founder {
+                            width: 400px;
+                            display: block;
+                            .image {
+                                    display: none;
+                                }
+                        }
+                        &.staff {
+                            width: 400px;
+                            display: block;
+                            .image {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

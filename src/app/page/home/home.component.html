@@ -1,0 +1,118 @@
+
+<div class="component">
+
+    <div class="section one intro">
+
+        <div class="container">
+
+            <img src="logo.png" alt="Skits'n'Bits Logo">
+
+            <p>
+                Welcome to Skits'N'Bits! We are a creative‚ fun‚ and welcoming 18+ improv group open to all skill levels․ We serve as a hub for skits‚ projects‚ and other VR performative collaborations! 
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="section_gradient one"></div>
+
+    <div class="section two events">
+
+        <div class="container">
+            
+            <div class="panel">
+                <h1>Workshops</h1>
+                <p>Ready to have fun and learn about improv? Join our weekly workshops on the 1st and 3rd Saturday of the month at 6:00 PM EST.</p>
+                <div class="images">
+                    <img src="image/workshops/workshop_2.png">
+                    <img src="image/workshops/workshop_1.png" class="two">
+                </div>
+            </div>
+
+            <div class="panel">
+                <h1>Shows</h1>
+                <p>Feeling confident in your skills and ready to show off? Apply to our monthly show that occurs every 4th Saturday at 6:00 PM EST.</p>
+                <div class="images">
+                    <img src="image/shows/show_1.png">
+                    <img src="image/shows/show_2.png" class="two">
+                </div>
+
+            </div>
+
+            <div class="panel">
+                <h1>Jams</h1>
+                <p>Learning is fun and all but sometimes you need a chance to refine what you learn. Join our Jam every 2nd Saturday at 6:00 PM EST.</p>
+                <div class="images">
+                    <img src="image/jams/jam_1.png">
+                    <img src="image/jams/jam_2.png" class="two">
+                </div>
+            </div>
+
+            <div class="panel">
+                <h1>Films</h1>
+                <p>On occasion we will create a short film that is a bit more planned out. So sit back, relax, grab your popcorn, and enjoy the show.</p>
+                <div class="images">
+                    <img src="image/films/haunt_poster.jpg">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="section_gradient two"></div>
+
+    <div class="section one staff">
+
+        <div class="container">
+
+            <h1>Founders</h1>
+
+            <div class="group founder">
+
+                @for (staff of website.staffList.founder; track $index) {
+                    <div class="profile" [title]="staff.role">
+                        <h2>{{staff.name}}</h2>
+                        <div class="image">
+                            <img [src]="'image/staff/'+staff.image" [alt]="staff.name">
+                        </div>
+                    </div>
+                }
+
+            </div>
+
+            <h1>Staff</h1>
+
+            <div class="group staff">
+
+                @for (staff of website.staffList.staff; track $index) {
+                    <div class="profile" [title]="staff.role">
+                        <h2>{{staff.name}}</h2>
+                        <div class="image">
+                            <img [src]="'image/staff/'+staff.image" [alt]="staff.name">
+                        </div>
+                    </div>
+                }
+
+            </div>
+
+            <h1>Retired Staff</h1>
+
+            <div class="group retired">
+
+                @for (staff of website.staffList.retired; track $index) {
+                    <div class="profile" [title]="staff.role">
+                        <h2>{{staff.name}}</h2>
+                    </div>
+                }
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- PRELOAD IMAGES -->

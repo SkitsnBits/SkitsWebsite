@@ -1,0 +1,41 @@
+[
+    {
+        "platform": "VRChat",
+        "display": "Skits'N'Bits Improv",
+        "username": "SNB.4752",
+        "link": "https://vrc.group/SNB.4752",
+        "image": "vrchat.svg",
+        "type": "external"
+    },
+    {
+        "platform": "Discord",
+        "display": "Skits'N'Bits Improv",
+        "username": "",
+        "link": "https://discord.gg/B8aym6e4q9",
+        "image": "discord.svg",
+        "type": "external"
+    },
+    {
+        "platform": "Youtube",
+        "display": "Skits'n'Bits",
+        "username": "skitsnbits5929",
+        "link": "https://www.youtube.com/@skitsnbits5929",
+        "image": "youtube.svg",
+        "type": "external"
+    },
+    {
+        "platform": "Bluesky",
+        "display": "Skits'n'Bits",
+        "username": "skitsnbits.bsky.social",
+        "link": "https://bsky.app/profile/skitsnbits.bsky.social",
+        "image": "bluesky.svg",
+        "type": "external"
+    },
+    {
+        "platform": "Twitter",
+        "display": "Skits'N'Bits Improv",
+        "username": "SNBImprovVR",
+        "link": "https://x.com/SNBImprovVR",
+        "image": "twitter.svg"
+    }
+]

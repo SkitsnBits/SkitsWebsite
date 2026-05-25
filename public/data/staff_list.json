@@ -1,9 +1,8 @@
 {
     "founder": [
         {
-        "name": "ZircronSwift",
-        "image": "Zircron.png",
-        "title": "Founder"
+            "name": "ZircronSwift",
+            "image": "Zircron.png"
         },
         {
             "name": "SwitzerLad",
@@ -20,16 +19,12 @@
             "image": "Nithia.png"
         },
         {
-            "name": "Mycana",
-            "image": "Mycana.png"
+            "name": "Seolfor",
+            "image": "Seolfor.png"
         },
         {
-            "name": "Wolfy",
-            "image": "Wolfy.png"
-        },
-        {
-            "name": "Skyeman",
-            "image": "Skyeman.png"
+            "name": "Wufski",
+            "image": "Placeholder.png"
         },
         {
             "name": "Letty",
@@ -56,7 +51,7 @@
             "image": "Hanns.png"
         },
         {
-            "name": "Timber the Cat",
+            "name": "TimbertheCat",
             "image": "TimbertheCat.png"
         },
         {
@@ -88,7 +83,7 @@
             "image": "Emma Torch.png"
         },
         {
-            "name": "Mattpro",
+            "name": "Matpro",
             "image": "Mattpro.png"
         },
         {
@@ -100,7 +95,7 @@
             "image": "Pure.png"
         },
         {
-            "name": "SebastianThePirate",
+            "name": "BobbinThePirate",
             "image": "Sebatian.png"
         },
         {
@@ -117,7 +112,15 @@
         },
         {
             "name": "Modulo",
-            "image": "Modeulo.png"
+            "image": "Modulo.png"
+        },
+        {
+            "name": "Nesser",
+            "image": "Placeholder.png"
+        },
+        {
+            "name": "Drusiton",
+            "image": "Placeholder.png"
         }
     ],
     "retired": [
@@ -130,7 +133,7 @@
             "image": "null"
         },
         {
-            "name": "Purin",
+            "name": "Skyeman",
             "image": "null"
         },
         {
@@ -138,7 +141,7 @@
             "image": "null"
         },
         {
-            "name": "Kangatails",
+            "name": "Purin",
             "image": "null"
         },
         {
@@ -146,11 +149,19 @@
             "image": "null"
         },
         {
-            "name": "Nachytsm",
+            "name": "Kangatails",
             "image": "null"
         },
         {
             "name": "Sageidae",
+            "image": "null"
+        },
+        {
+            "name": "Nachytsm",
+            "image": "null"
+        },
+        {
+            "name": "Mycana",
             "image": "null"
         }
     ]

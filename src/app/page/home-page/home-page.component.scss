@@ -1,0 +1,23 @@
+
+.nav-screen {
+
+    display: flex;
+    padding: 100px;
+    justify-content: space-around;
+
+    background-color: #740B0A;
+    mask: repeating-conic-gradient(from 135deg at 50% 20px,#0000 0,#000 1deg 89deg,#0000 90deg 180deg) 50% -20px/40px;
+
+
+    .container {
+        padding: 20px 50px;
+        background-color: var(--primary-2);
+        border: 5px solid var(--primary-5);
+        border-radius: 10px;
+        text-align: center;
+        h1 {
+            color: var(--primary-5);
+        }
+    }
+
+}

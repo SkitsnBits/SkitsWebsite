@@ -1,0 +1,34 @@
+<div class="component">
+    
+    <div class="title-section">
+        
+        <h1 class="title">Skits 'n' Bits</h1>
+        
+    </div>
+    
+    <div class="collage-section">
+        <div class="collage">
+            <app-collage [collageLinks]="collageLinks">
+                <div class="logo-container">
+                    
+                    <img class="logo" src="logo.png">
+                    
+                </div>
+            </app-collage>
+        </div>
+    </div>
+    
+    <div class="link-section">
+        
+        <div class="links">
+            
+            @for (link of platformLinks; track $index) {
+                <a class="link" [href]="link.link" target="_blank" [title]="link.link">
+                    <img [src]="'image/platform/'+link.image" alt="Image">
+                </a>
+            }
+            
+        </div>
+        
+    </div>
+</div>

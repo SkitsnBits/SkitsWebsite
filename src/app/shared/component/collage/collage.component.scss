@@ -1,0 +1,60 @@
+
+:host {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.collage-inner {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    box-sizing: border-box;
+    opacity: 1;
+    z-index: 11;
+}
+
+.collage-frame {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+    border: 40px solid var(--picture-frame-mat);
+    // border-radius: 20px;
+
+    opacity: 0;
+    transition: opacity 600ms ease;
+    &.ready {
+        opacity: 1;
+    }
+}
+
+.grid {
+    width: 100%;
+    box-sizing: border-box;
+    padding-bottom: 80px;
+    transform: translateY(-70px);
+
+    display: grid;
+    gap: 0;
+    grid-template-columns: repeat(auto-fit, minmax(calc(calc(min(calc(100vw - 400px), 450px) / 320px * 200px) + 240px), 1fr));
+    
+    background-color: var(--picture-frame-mat);
+    
+}
+
+.grid-item {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16/9;
+    box-sizing: border-box;
+
+    // border: 2px solid var(--picture-frame-mat);
+    // border-radius: 10px;
+    
+    transform-origin: center;
+    background-size: cover;
+    background-position: center;
+}

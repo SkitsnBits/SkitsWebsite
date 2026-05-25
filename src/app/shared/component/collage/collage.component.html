@@ -1,0 +1,25 @@
+
+<div class="collage-inner">
+    <ng-content></ng-content>
+</div>
+
+<div class="collage-frame" [class.ready]="collageReady()">
+    
+        <div class="grid">
+        
+            @for (image of collageList(); track image; let i = $index) {
+                
+                <div
+                    class="grid-item"
+                    [style.background-image]="'url(' + image.url + ')'"
+                    [style.background-size]="image.size"
+                    [style.background-position]="image.position"
+                    [style.transform]="'translateY(' + image.translateY + ') scale(' + image.scale + ')'"
+                    [style.z-index]="image.zIndex"
+                >                
+                </div>
+            }
+        
+        </div>
+        
+    </div>

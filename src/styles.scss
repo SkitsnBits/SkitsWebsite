@@ -15,11 +15,13 @@ a {
     font: inherit;
 }
 
-html, body {
+body, html {
     margin: 0;
     padding: 0;
     height: 100%;
-    background: var(--primary-3);
+    background-image: url("/image/background/pattern.jpg");
+    background-size: 800px 800px;
+    background-repeat: repeat;
 }  
 
 :root {
@@ -28,6 +30,10 @@ html, body {
     --primary-3: #E0681D;
     --primary-4: #610a0c;
     --primary-5: #3F0607;
+    --primary-6: #4e0001;
+
+    --picture-frame: #3d1a11;
+    --picture-frame-mat: #f3e0d3;
 }
 
 h1, h2, h3 {
@@ -38,4 +44,24 @@ h1, h2, h3 {
 p {
     color: var(--primary-2);
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigate {
+    cursor: pointer;
+}
+
+.image-frame {
+    border: 20px solid var(--picture-frame);
+    background-color:  var(--picture-frame-mat);
+    img {
+        border: 40px solid transparent;
+        box-sizing: border-box;
+        width: 100%;
+    }
+}
+
+.st-box {
+    background-color: var(--primary-6);
+    border: 5px solid var(--primary-5);
+    border-radius: 10px;
 }

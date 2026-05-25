@@ -1,0 +1,65 @@
+<div class="header-section section">
+
+    <h1 class="section-title st-box">Staff Team</h1>
+
+</div>
+
+<div class="founder-section section">
+
+    <h1 class="section-title st-box">Founders</h1>
+
+    <div class="grid">
+        @for (member of founders; track member.name) {
+
+            <div class="member">
+                <h1 class="st-box">
+                    {{member.name}}
+                </h1>
+                <div class="image-frame">
+                    <img [src]="'image/staff/'+member.image" alt="Image">
+                </div>
+            </div>
+
+        }
+    </div>
+
+</div>
+
+<div class="staff-section section">
+
+    <h1 class="section-title st-box">Staff</h1>
+
+    <div class="grid">
+        @for (member of staff; track member.name) {
+            
+            <div class="member">
+                <h1 class="st-box">
+                    {{member.name}}
+                </h1>
+                <div class="image-frame">
+                    <img [src]="'image/staff/'+member.image" alt="Image">
+                </div>
+            </div>
+
+        }
+    </div>
+
+</div>
+
+<div class="previous-section section">
+
+    <h1 class="section-title st-box">Retired</h1>
+
+    <div class="grid">
+        @for (member of retired; track member.name) {
+            
+            <div class="member">
+                <h1 class="st-box">
+                    {{member.name}}
+                </h1>
+            </div>
+
+        }
+    </div>
+
+</div>

@@ -1,0 +1,167 @@
+
+.component {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title-section {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+
+    .title {
+        font-size: 100px;
+        margin: 0px;
+        text-align: center;
+        border: 5px solid var(--primary-5);
+        background-color: var(--primary-4);
+        border-radius: 20px;
+        padding: 0px 100px;
+    }
+}
+
+.link-section {
+
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+
+    .links {
+        display: flex;
+        gap: 50px;
+
+        .link {
+            display: flex;
+            border: 5px solid var(--primary-5);
+            background-color: var(--primary-4);
+            border-radius: 50px;
+            padding: 20px;
+            aspect-ratio: 1;
+            img {
+                width: 100px;
+                height: 100px;
+            }
+        }
+
+    }
+}
+
+
+.collage-section {
+    min-height: 0;
+    width: 100%;
+    flex: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    
+    .collage {
+        border: 20px solid var(--picture-frame);
+        box-sizing: content-box;
+        flex: 1;
+        height: 100%;
+        max-width: 3000px;
+        margin: 0px 50px;
+        min-height: 0;
+        display: flex;
+    }
+    
+    .logo-container {
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        
+        .logo {
+            position: absolute;
+            width: 500px;
+            padding: 30px;
+            z-index: 20;
+    
+            border-radius: 1000px;
+            filter: drop-shadow(0 20px 20px black);
+        }
+    }
+}
+
+
+
+// SD 16:9
+@media (max-width: 1300px) {
+    .link-section, .title-section {
+        .title {
+            font-size: 75px;
+            border-radius: 30px;
+            padding: 0px 75px;
+        }
+        .links {
+            gap: 20px;
+            .link {
+                border-radius: 30px;
+                padding: 10px;
+                img {
+                    width: 75px;
+                    height: 75px;
+                }
+            }
+        }
+    }
+    .collage-section {
+        flex: 5;
+        margin: 0px 30px;
+    }
+    .logo-container {
+        .logo {
+            padding: 20px;
+            width: 250px;
+        }
+    }
+}
+
+// Phone Low
+@media (max-width: 900px) {
+    .link-section, .title-section {
+        .title {
+            font-size: 30px;
+            border-radius: 20px;
+            padding: 0px 30px;
+        }
+        .links {
+            gap: 10px;
+            .link {
+                border-radius: 30px;
+                padding: 10px;
+                img {
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+        }
+    }
+    .collage-section {
+        margin: 0px;
+
+        .logo-container {
+            .logo {
+                padding: 10px;
+                width: 200px;
+            }
+        }
+    }
+}
+

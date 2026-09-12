@@ -23,8 +23,8 @@
             "image": "Seolfor.png"
         },
         {
-            "name": "Wufski",
-            "image": "Placeholder.png"
+            "name": "Meeka",
+            "image": "Meeka.png"
         },
         {
             "name": "Letty",
@@ -115,16 +115,20 @@
             "image": "Modulo.png"
         },
         {
-            "name": "Nesser",
-            "image": "Placeholder.png"
+            "name": "MrNesser",
+            "image": "MrNesser.png"
         },
         {
             "name": "Drusiton",
-            "image": "Placeholder.png"
+            "image": "Drusiton.png"
         },
         {
             "name": "skerek",
-            "image": "Placeholder.png"
+            "image": "Skerek.png"
+        },
+        {
+            "name": "Dreissen",
+            "image": "Dreissen.png"
         }
     ],
     "retired": [
